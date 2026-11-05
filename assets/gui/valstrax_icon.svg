@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>Crimson Glow Valstrax boss icon (GUI / fight banner)</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a0f0f"/>
+      <stop offset="100%" stop-color="#12060a"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="128" height="128" rx="14" fill="url(#bg)"/>
+  <circle cx="64" cy="70" r="40" fill="none" stroke="#ff2f2f" stroke-width="2" opacity="0.4"/>
+  <!-- Wings spread -->
+  <path d="M30 46 L6 22 L22 44 L10 30 L30 52 Z" fill="#7a1414"/>
+  <path d="M98 46 L122 22 L106 44 L118 30 L98 52 Z" fill="#7a1414"/>
+  <!-- Body -->
+  <path d="M54 52 L74 52 L82 68 L74 88 L54 88 L46 68 Z" fill="#9e1b1b"/>
+  <!-- Chest core -->
+  <ellipse cx="64" cy="70" rx="8" ry="11" fill="#ff5a2e"/>
+  <ellipse cx="64" cy="70" rx="4" ry="6" fill="#ffd9a0"/>
+  <!-- Neck + head -->
+  <path d="M56 50 L72 50 L70 36 L58 36 Z" fill="#8a1414"/>
+  <path d="M56 34 L72 34 L70 24 L58 24 Z" fill="#9e1b1b"/>
+  <!-- horns -->
+  <path d="M58 26 L50 10 L60 20 L62 16 L66 22 L78 10 L70 26 Z" fill="#d8d200"/>
+  <path d="M64 22 L64 14 L68 18 Z" fill="#e8e200"/>
+  <!-- jaw -->
+  <path d="M58 30 L70 30 L68 36 L60 36 Z" fill="#5e0f0f"/>
+  <!-- eyes -->
+  <circle cx="60" cy="27" r="2" fill="#ff6a3d"/>
+  <circle cx="68" cy="27" r="2" fill="#ff6a3d"/>
+  <!-- energy wisps -->
+  <circle cx="40" cy="60" r="3" fill="#ff6a3d" opacity="0.8"/>
+  <circle cx="88" cy="60" r="3" fill="#ff6a3d" opacity="0.8"/>
+  <circle cx="34" cy="84" r="2" fill="#ffb36b" opacity="0.7"/>
+  <circle cx="94" cy="84" r="2" fill="#ffb36b" opacity="0.7"/>
+  <!-- flicker stars -->
+  <circle cx="48" cy="16" r="1.5" fill="#ffb36b" opacity="0.6"/>
+  <circle cx="80" cy="14" r="1.5" fill="#ffb36b" opacity="0.5"/>
+</svg>

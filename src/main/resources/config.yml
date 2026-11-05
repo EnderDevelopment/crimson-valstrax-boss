@@ -1,0 +1,45 @@
+# Crimson Glow Valstrax boss configuration.
+# All values can be tuned; reload with /valstrax reload.
+
+boss:
+  # Total health of the boss (same scale as player hearts * 2 per heart.
+  # A player with 20 health is in vanilla terms; this boss is very tanky).
+  max-health: 2000.0
+  # Vanilla mob used as the boss body.
+  base-entity: ELDER_GUARDIAN
+  # Name shown on the nametag and boss bar.
+  name: "Crimson Glow Valstrax"
+  # How far (in blocks) a player must be to trigger/keep the fight.
+  aggro-radius: 48
+  # After this many blocks away the boss teleports back to the player.
+  leash-radius: 64
+  # Seconds between attack cycles while the boss is in fight mode.
+  attack-cycle-seconds: 12
+  # Multipliers for damage the boss deals to players.
+  wing-damage: 8.0
+  dive-damage: 16.0
+  blast-damage: 10.0
+  pound-damage: 12.0
+  tail-damage: 7.0
+  # Damage the boss deals per second while touching a player romaing.
+  touch-damage: 4.0
+  # If true, players in range get the boss music theme looped.
+  play-theme: true
+  # Minecraft sound used as a roar.
+  roar-sound: ENTITY_ENDER_DRAGON_GROWL
+  # Party of crimson dragon particles used by attacks. Choose a valid
+  # Particle enum name such as DRAGON_BREATH, FLAME, SMOKE_NORMAL, etc.
+  energy-particle: DRAGON_BREATH
+  # Drops given when the boss dies (material:amount split by ';').
+  drops:
+    - DRAGON_BREATH:8
+    - DIAMOND:32
+    - EXPERIENCE_BOTTLE:16
+  # Background sound used to build the looping boss theme.
+  theme-instrument: MUSIC_DISC_PIGSTEP
+
+enrage:
+  # Below this fraction of max health the boss enrages (faster, redder).
+  threshold: 0.30
+  speed-multiplier: 1.6
+  attack-cycle-seconds: 7

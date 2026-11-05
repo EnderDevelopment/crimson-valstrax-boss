@@ -1,0 +1,16 @@
+name: CrimsonGlowValstrax
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Crimson Glow Valstrax boss fight from Monster Hunter Rise: Sunbreak.
+author: EnderDevelopment
+prefix: CGValstrax
+permissions:
+  valstrax.admin:
+    description: Allows spawning and controlling the Valstrax boss.
+    default: op
+commands:
+  valstrax:
+    description: Spawn and control the Crimson Glow Valstrax boss.
+    usage: /valstrax <spawn|kill|stop|music|reload|hp>
+    permission: valstrax.admin
